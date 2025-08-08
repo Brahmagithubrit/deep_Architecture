@@ -8,6 +8,10 @@ This repository contains a simple implementation of the Perceptron algorithm usi
 
 A perceptron is a type of linear classifier, i.e., a classification algorithm that makes its predictions based on a linear predictor function combining a set of weights with the feature vector. It is the simplest type of artificial neural network and can only solve linearly separable problems.
 
+
+
+
+
 ---
 
 ## How It Works
@@ -16,6 +20,8 @@ A perceptron is a type of linear classifier, i.e., a classification algorithm th
    - Weights and bias are initialized to zero.
 2. **Training:**  
    - For each input sample, the perceptron computes a weighted sum.
+   - here is demo how it works :
+   - https://github.com/user-attachments/assets/0da3a224-a9f0-46d9-b660-157c35d55ffb
    - The output is determined by a step function (if sum ≥ 0, output 1; else 0).
    - If the prediction is incorrect, weights and bias are updated using the perceptron learning rule.
    - This process repeats for a fixed number of epochs.
