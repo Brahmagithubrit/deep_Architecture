@@ -21,7 +21,13 @@ A perceptron is a type of linear classifier, i.e., a classification algorithm th
 2. **Training:**  
    - For each input sample, the perceptron computes a weighted sum.
    - here is demo how it works :
-   - https://github.com/user-attachments/assets/0da3a224-a9f0-46d9-b660-157c35d55ffb
+
+
+
+https://github.com/user-attachments/assets/a4e9a4d1-26d5-4751-bee3-f1750b867e5c
+
+
+
    - The output is determined by a step function (if sum ≥ 0, output 1; else 0).
    - If the prediction is incorrect, weights and bias are updated using the perceptron learning rule.
    - This process repeats for a fixed number of epochs.
